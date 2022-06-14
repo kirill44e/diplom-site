@@ -1,0 +1,70 @@
+* {
+	box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Montserrat; /* Имя шрифта */
+    src: url(fonts/Montserrat-Regular.ttf); /* Путь к файлу со шрифтом */
+}
+
+body {
+	margin: 0px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background: linear-gradient(243.5deg, #FF6109 6.17%,
+		rgba(178, 112, 172, 0.91) 21.08%,
+		rgba(145, 44, 134, 0.74) 49.66%,
+		rgba(194, 142, 80, 0.94) 58.95%, #E85AEB 65.36%,
+		rgba(129, 69, 225, 0.79) 78.57%, #FD8B06 100.87%, #C88B43 100.87%);
+}
+
+div.header {
+	padding-top: 65px;
+	width: 100%;
+	height: 100px;
+}
+
+ul.ul1 {
+	list-style-type: none;
+	height: 80px;
+	margin: 0px;
+	float: right;
+}
+
+ul.ul1 li {
+	float: left;
+	margin-right: 50px;
+	padding-top: 19px;
+}
+
+a {
+	text-decoration: none;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	color: silver;
+}
+
+a:visited {
+	color: silver;
+}
+
+ul.ul1 a {
+	font-size: 35px;
+	color: #FFF4F4;
+}
+
+label.politic {
+	font-size: 20px;
+	color: silver;
+}
+
+p.politic {
+	margin: auto;
+	font-size: 20px;
+	margin-top: 50px;
+	color: white;
+	font-weight: 600;
+	width: 80%;
+	font-family: Montserrat;
+}
