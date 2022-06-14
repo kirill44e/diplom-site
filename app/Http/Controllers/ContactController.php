@@ -138,7 +138,8 @@ class ContactController extends Controller
 
   public function create_cours() {
     // $contact = Cours::query()->where('status', '=', 'Подтвержден')->get();
-    $contact = Cours::orderBy('id', 'DESC')->get();
+    $user_id = Auth::user()->id;
+    $contact = Cours::where('user_id', '=', $user_id)->orderBy('id', 'DESC')->get();
     $cours = [];
 
     return view('create', ['cours' => $contact->all()]);
