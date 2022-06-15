@@ -100,7 +100,7 @@ header {
 		margin-bottom: 50px;
 	}
 
-	@media (min-width: 950px) and (max-width: 2000px) {
+@media (min-width: 950px) and (max-width: 2000px) {
 		ul.navv li {
 			margin-right: 5%;
 			font-size: 20px;
@@ -127,8 +127,8 @@ header {
 		div.form-group > label {
 			color: white;
 		}
-	}
-	@media (min-width: 550px) and (max-width: 950px) {
+}
+@media (min-width: 550px) and (max-width: 950px) {
 		ul.navv li {
 			margin-right: 3%;
 			font-size: 18px;
@@ -139,6 +139,7 @@ header {
 		form {
 			width: 50%;
 			margin-left: 10%;
+			background: #424242;
 		}
 
 		img.kart {
@@ -146,8 +147,8 @@ header {
 			margin-left: 10%;
 			margin-top: 50px;
 		}
-	}
-	@media (min-width: 360px) and (max-width: 550px) {
+}
+@media (min-width: 360px) and (max-width: 550px) {
 		ul.navv li {
 			margin-right: 2%;
 			font-size: 12px;
@@ -170,4 +171,13 @@ header {
 			margin-left: 10%;
 			margin-top: 50px;
 		}
-	}
+		div.sdf {
+			width: 100%;
+			height: 100%;
+			background:#424242;
+		}
+
+		form.submit > div.form-group > label {
+			color: white;
+		}
+}
