@@ -9,6 +9,7 @@
   <title>Личный кабинет</title>
 </head>
 <body>
+  <div class="sdf">
   <header>
       <a href="{{ route('home')}}"><img src="/img/home.svg" style="width:30px; height:30px; position:absolute; top:20px; left:10px;" alt=""></a>
       <ul class="navv">
@@ -68,6 +69,6 @@
     </form>
 
     <img src="img/contact.png" alt="contact" class="kart">
-
+  </div>
 </body>
 </html>
